@@ -1,7 +1,7 @@
 #sidebar-box{
-    --uc-sidebar-width: 31px;
-    --uc-sidebar-hover-width: 300px;
-    --uc-autohide-sidebar-delay: 455ms; /* Wait time before hiding sidebar */
+    --uc-sidebar-width: 30px;
+    --uc-sidebar-hover-width: 350px;
+    /* --uc-autohide-sidebar-delay: 455ms; /\* Wait time before hiding sidebar *\/ */
     position: relative;
     min-width: var(--uc-sidebar-width) !important;
     width: var(--uc-sidebar-width) !important;
@@ -22,7 +22,7 @@
   #sidebar-header{ display: none}
   
   #sidebar{
-    transition: min-width 115ms linear var(--uc-autohide-sidebar-delay) !important;
+    /* transition: min-width 115ms linear var(--uc-autohide-sidebar-delay) !important; */
     min-width: var(--uc-sidebar-width) !important;
     will-change: min-width;
   }
@@ -40,3 +40,41 @@
     color: inherit !important;
   }
   
+
+/* hide indentation when collapsed */
+[data-lvl] {
+    padding-left:0 !important;
+    will-change: padding-left;
+}
+
+/* show indentation when hovered over */
+.Sidebar:hover .Tab[data-lvl="1"] {
+    padding-left:var(--tabs-indent) !important;
+}
+.Sidebar:hover .Tab[data-lvl="2"] {
+    padding-left:calc(var(--tabs-indent) * 2) !important;
+}
+.Sidebar:hover .Tab[data-lvl="3"] {
+    padding-left:calc(var(--tabs-indent) * 3) !important;
+}
+.Sidebar:hover .Tab[data-lvl="4"] {
+    padding-left:calc(var(--tabs-indent) * 4) !important;
+}
+.Sidebar:hover .Tab[data-lvl="5"] {
+    padding-left:calc(var(--tabs-indent) * 5) !important;
+}
+.Sidebar:hover .Tab[data-lvl="6"] {
+    padding-left:calc(var(--tabs-indent) * 6) !important;
+}
+.Sidebar:hover .Tab[data-lvl="7"] {
+    padding-left:calc(var(--tabs-indent) * 7) !important;
+}
+.Sidebar:hover .Tab[data-lvl="8"] {
+    padding-left:calc(var(--tabs-indent) * 8) !important;
+}
+.Sidebar:hover .Tab[data-lvl="9"] {
+    padding-left:calc(var(--tabs-indent) * 9) !important;
+}
+.Sidebar:hover .Tab[data-lvl="10"] {
+    padding-left:calc(var(--tabs-indent) * 10) !important;
+}

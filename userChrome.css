@@ -1,3 +1,11 @@
+@import url("botones.css");
+@import url("barralat.css");
+@import url("tab.css");
+/* This will center the text, comment if you do not want that*/
+/* Esto centra el texto, comentar si no querés eso*/
+#urlbar:not([focused]) #urlbar-input, 
+#urlbar:not([focused]) .urlbar-input{ text-align: center !important; }
+
 :root {
 
    /* Minimal Functional Fox variables*/
@@ -349,14 +357,6 @@ toolbarseparator {
   display: none;
 }
 
-
-
-
-/* sidebery */
-@import url("botones.css");
-@import url("barralat.css");
-@import url("tab.css");
-/* This will center the text, comment if you do not want that*/
-/* Esto centra el texto, comentar si no querés eso*/
-#urlbar:not([focused]) #urlbar-input, 
-#urlbar:not([focused]) .urlbar-input{ text-align: center !important; }
+#pocket-button {
+	  visibility: hidden;
+}

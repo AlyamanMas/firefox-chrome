@@ -1,4 +1,4 @@
-:root{ --uc-toolbar-height: 31px; }
+:root{ --uc-toolbar-height: 2px; }
 
 :root:not([uidensity="compact"]){--uc-toolbar-height: 38px}
 
@@ -8,11 +8,11 @@
   margin-top: calc(0px - var(--uc-toolbar-height));
 }
 
-#toolbar-menubar{
+/* #toolbar-menubar{
   min-height:unset !important;
   height:var(--uc-toolbar-height) !important;
   position: relative;
-}
+} */
 
 #main-menubar{
   -moz-box-flex: 1;
