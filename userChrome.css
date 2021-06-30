@@ -358,5 +358,5 @@ toolbarseparator {
 }
 
 #pocket-button {
-	  visibility: hidden;
+	  visibility: collapse;
 }
