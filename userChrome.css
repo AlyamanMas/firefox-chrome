@@ -16,7 +16,7 @@
   --mff-sidebar-color: #D8DEE9;
   --mff-tab-border-radius: 0px;
   --mff-tab-color: #ECEFF4;
-  --mff-tab-font-family: "Cantarell", sans;
+  --mff-tab-font-family: "Fira Sans", sans;
   --mff-tab-font-size: 11pt;
   --mff-tab-font-weight: 400;
   --mff-tab-height: 24px;
@@ -25,11 +25,11 @@
   --mff-tab-soundplaying-bg: #5E81AC;
   --mff-urlbar-color: #8FBCBB;
   --mff-urlbar-focused-color: #D8DEE9;
-  --mff-urlbar-font-family: "Cantarell", sans;
+  --mff-urlbar-font-family: "Fira Sans", sans;
   --mff-urlbar-font-size: 12pt;
   --mff-urlbar-font-weight: 700;
   --mff-urlbar-results-color: #D8DEE9;
-  --mff-urlbar-results-font-family: "Cantarell", sans;
+  --mff-urlbar-results-font-family: "Fira Sans", sans;
   --mff-urlbar-results-font-size: 12pt;
   --mff-urlbar-results-font-weight: 700;
   --mff-urlbar-results-url-color: #8FBCBB;
